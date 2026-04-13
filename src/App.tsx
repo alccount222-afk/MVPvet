@@ -1,6 +1,4 @@
-import { useState, useEffect, useCallback, useMemo, useRef } from "react";
-import { initializeApp } from "firebase/app";
-import emailjs from "@emailjs/browser";
+
 import {
   getAuth,
   createUserWithEmailAndPassword,
@@ -2234,4 +2232,6 @@ function NewVaccineModal({ pet, onClose, onSave }) {
       </div>
     </ModalWrap>
   );
-}
+import { useState, useEffect, useCallback, useMemo, useRef } from "react";
+import { initializeApp } from "firebase/app";
+import emailjs from "@emailjs/browser";
